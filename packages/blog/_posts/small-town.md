@@ -28,9 +28,7 @@ The quality of dev education in Dunedin is, unfortunately, less than ideal. Peop
 
 The benefits are as much physicological as material, as our bigger cities house much more diversity and a different mentality of thinking. From the boutique boujee city of Wellington; to our simultaneously third-world and first-world city, Auckland. Compared to the religious backwater hicksville of Balclutha (sorry not sorry), any big city will do you good (even Christchurch, as much as I hate it).
 
-
-For me though, now, Dunedin is a nice place to live, with cheap housing, great nature, and nice people. It's like a beautiful communist state -- so many axes got thrown throw the right-wing candidate's face that the window of his office that he's got 10 cameras outside it.
-
+For me though, now, Dunedin is a nice place to live, with cheap housing, great nature, and nice people. It's like a beautiful communist state -- so many axes got thrown through the right-wing candidate's big plastered face on the window of his office that he's got 10 cameras outside it.
 
 Best,
 
