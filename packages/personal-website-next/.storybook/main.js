@@ -4,25 +4,28 @@ module.exports = {
     "../stories/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: ["@storybook/addon-links", "@storybook/addon-essentials"],
-  webpackFinal: () => {
-    module.rules.push({
+
+  webpackFinal: (config) => {
+    config.module.rules.push({
       test: /\.module\.s(a|c)ss$/,
       loader: [
-        isDevelopment ? "style-loader" : MiniCssExtractPlugin.loader,
+        "style-loader",
         {
           loader: "css-loader",
           options: {
             modules: true,
-            sourceMap: isDevelopment,
+            sourceMap: true,
           },
         },
         {
           loader: "sass-loader",
           options: {
-            sourceMap: isDevelopment,
+            sourceMap: true,
           },
         },
       ],
     });
+
+    return config;
   },
 };
