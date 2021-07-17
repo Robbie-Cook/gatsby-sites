@@ -14,6 +14,7 @@ import Avatar from "./meAsAvatar.svg";
 import animationData from "./data.json";
 import Lottie from "react-lottie";
 import useBreakpoint from "use-breakpoint";
+import DecorativeTitle from "../../../components/DecorativeTitle";
 
 const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 };
 
@@ -201,7 +202,7 @@ const Hero = ({ offset }: { offset: number }) => {
               justifyContent: "center",
             }}
           >
-            <Lottie
+            {/* <Lottie
               options={{
                 loop: true,
                 autoplay: true,
@@ -212,7 +213,8 @@ const Hero = ({ offset }: { offset: number }) => {
               }}
               height={breakpoint === "mobile" ? 50 : 100}
               width={"100%"}
-            />
+            /> */}
+            <DecorativeTitle>Hi, I'm Robbie Cook</DecorativeTitle>
             <Intro />
           </div>
         </Inner>
