@@ -13,17 +13,9 @@ import Intro from "../../sections/intro.mdx";
 import Avatar from "./meAsAvatar.svg";
 import animationData from "./data.json";
 import Lottie from "react-lottie";
-import useBreakpoint from "use-breakpoint";
 import DecorativeTitle from "../../../components/DecorativeTitle";
 
-const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 };
-
 const Hero = ({ offset }: { offset: number }) => {
-  const { breakpoint, maxWidth, minWidth } = useBreakpoint(
-    BREAKPOINTS,
-    "desktop"
-  );
-
   return (
     <div>
       <Divider speed={0.2} offset={offset}>

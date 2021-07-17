@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "storybook": "start-storybook -p 6006 --no-dll",
-    "build-storybook": "build-storybook --no-dll"
+    "storybook": "start-storybook -s ./public -p 6006 --no-dll",
+    "build-storybook": "build-storybook -s ./public --no-dll"
   },
   "dependencies": {
     "@babel/preset-react": "^7.12.13",
@@ -39,6 +39,7 @@
     "@storybook/addon-links": "^6.4.0-alpha.18",
     "@storybook/manager-webpack5": "^6.4.0-alpha.18",
     "@storybook/react": "^6.4.0-alpha.18",
+    "@types/react-lottie": "^1.2.6",
     "css-loader": "^6.0.0",
     "file-loader": "^6.2.0",
     "react-is": "^17.0.1",
