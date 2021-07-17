@@ -4,11 +4,13 @@ module.exports = {
     "../stories/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: ["@storybook/addon-links", "@storybook/addon-essentials"],
-
+  core: {
+    builder: "webpack5",
+  },
   webpackFinal: (config) => {
     config.module.rules.push({
       test: /\.module\.s(a|c)ss$/,
-      loader: [
+      use: [
         "style-loader",
         {
           loader: "css-loader",
@@ -24,6 +26,12 @@ module.exports = {
           },
         },
       ],
+    });
+
+    config.module.rules.push({
+      test: /\.scss$/,
+      exclude: /\.module\.s(a|c)ss$/,
+      use: ["style-loader", "css-loader", "sass-loader"],
     });
 
     return config;
