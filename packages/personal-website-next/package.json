@@ -15,6 +15,7 @@
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.0.7",
     "@robbie-cook/react-components": "^5.2.1",
+    "@storybook/builder-webpack5": "^6.4.0-alpha.18",
     "@svgr/webpack": "^5.5.0",
     "@theme-ui/presets": "^0.3.5",
     "@types/theme-ui": "^0.3.7",
@@ -25,19 +26,25 @@
     "next-transpile-modules": "^6.3.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-lottie": "^1.2.3",
     "react-spring": "^8.0.27",
     "svg-inline-loader": "^0.8.2",
-    "theme-ui": "^0.3.5"
+    "theme-ui": "^0.3.5",
+    "use-breakpoint": "^2.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.13.1",
-    "@storybook/addon-actions": "^6.1.19",
-    "@storybook/addon-essentials": "^6.1.19",
-    "@storybook/addon-links": "^6.1.19",
-    "@storybook/react": "^6.1.19",
+    "@storybook/addon-actions": "^6.4.0-alpha.18",
+    "@storybook/addon-essentials": "^6.4.0-alpha.18",
+    "@storybook/addon-links": "^6.4.0-alpha.18",
+    "@storybook/manager-webpack5": "^6.4.0-alpha.18",
+    "@storybook/react": "^6.4.0-alpha.18",
+    "css-loader": "^6.0.0",
     "file-loader": "^6.2.0",
     "react-is": "^17.0.1",
     "react-svg-loader": "^3.0.3",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.1.0",
     "typescript": "^4.1.5"
   }
 }
